@@ -36,6 +36,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'rails-i18n'
 
 gem "select2-rails"
+
+gem "nested_form_fields"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
