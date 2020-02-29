@@ -10,6 +10,10 @@ Rails.application.routes.draw do
   namespace :admin do
     root "events#index"
     resources :events do 
+      member do
+        post :reorder
+      end
+
       collection do
         post :bulk_update
       end
